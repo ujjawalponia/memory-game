@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Matching Game Project</title>
+    <meta name="description" content="Memory Game Project">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Expletus+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Main Box -->
+    <div class="main-box">
+       <!-- Heading -->
+        <header>
+            <h1>Memory Game</h1>
+        </header>
+        <!-- Score Box -->
+        <section class="score-box">
+            <!-- Stars -->
+        	<ul class="stars">
+        		<li><i class="fa fa-star"></i></li>
+        		<li><i class="fa fa-star"></i></li>
+        		<li><i class="fa fa-star"></i></li>
+        	</ul>
+            <!-- Moves -->
+        	<span class="moves">0</span> Moves
+           <!-- Time -->
+            <span class="timer">Timer : <label id="minutes">00</label>:<label id="seconds">00</label></span>
+            <!-- Reset Button -->
+            <div class="restart">
+        		<i class="fa fa-repeat reset" type="button" value="Refresh Page"></i>
+        	</div>
+        </section>
+        <!-- Card Box -->
+        <ul class="cardBox"></ul>
+    </div>
+    <script  src="js/index.js"></script>
+</body>
+</html>
