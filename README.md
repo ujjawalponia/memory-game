@@ -21,6 +21,8 @@ Load this link in your browser https://ujjawalponia.github.io/memory-game
 * Created a move counter to count the number of moves made by player and timer to record the user time for results.
 * Added effects to cards when they matched and are unmatched.
 * Created a winner box, to show the results in how much time or moves the user completed the game.
+* I have used font-awesome icons for cards.
+* Font Family 'Expletus Sans' is used from google fonts.
 
 ## Follow Me On Social Media
 * https://www.facebook.com/ujjawalponia
